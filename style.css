@@ -1,0 +1,51 @@
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+}
+
+nav{
+    background:#333;
+    padding:15px;
+    text-align:center;
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+}
+
+section{
+    padding:80px 20px;
+    min-height:100vh;
+}
+
+#home{
+    background:#f4f4f4;
+}
+
+#skills{
+    background:#e8e8e8;
+}
+
+#projects{
+    background:#dcdcdc;
+}
+
+#contact{
+    background:#cfcfcf;
+}
+
+/* Responsive */
+@media(max-width:768px){
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+}
